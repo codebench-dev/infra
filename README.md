@@ -2,6 +2,14 @@
 
 ## Terraform
 
+Terraform state is stored on a Scaleway bucket.
+
+The terraform config manages:
+
+- [scw] a Container Registry
+- [do] a Redis cluster
+- [do] a Postgres cluster
+
 ```sh
 cd terraform/
 source .env
